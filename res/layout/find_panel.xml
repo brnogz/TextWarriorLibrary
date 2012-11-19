@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+ 
+<!-- Warning: Modifications to this file may require corresponding modifications
+	to the FindPanel constructors -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+  
+<TableRow>
+	<ImageButton android:id="@+id/find_panel_replace_bar_toggle" />
+
+<!-- TODO subclass EditText to intercept imeAction and do a find action
+		android:imeActionLabel="@string/find_panel_find_label"
+		android:imeActionId="@id/find_panel_search_text" -->
+	<EditText android:id="@+id/find_panel_search_text"
+		android:hint="@string/find_panel_find_label"
+		android:imeOptions="actionDone|flagNoExtractUi"
+		android:singleLine="true" />
+
+	<ImageButton android:id="@+id/find_panel_find_next"
+		android:src="@drawable/find_forwards" />
+		
+	<ImageButton android:id="@+id/find_panel_find_prev"
+		android:src="@drawable/find_backwards" />
+</TableRow>
+
+
+<TableRow android:id="@+id/find_panel_replace_bar">
+	<ImageButton android:id="@+id/find_panel_settings"
+		android:src="@drawable/settings" />
+<!-- TODO subclass EditText to intercept imeAction and do a replace action
+		android:imeActionLabel="@string/find_panel_replace_label"
+		android:imeActionId="@id/find_panel_replace_text" -->
+	<EditText android:id="@+id/find_panel_replace_text"
+		android:hint="@string/find_panel_replace_label"
+		android:imeOptions="actionDone|flagNoExtractUi"
+		android:singleLine="true" />
+		
+	<ImageButton android:id="@+id/find_panel_replace"
+		android:src="@drawable/replace" />
+		
+	<ImageButton android:id="@+id/find_panel_replace_all"
+		android:src="@drawable/replace_all" />
+</TableRow>
+
+</merge>

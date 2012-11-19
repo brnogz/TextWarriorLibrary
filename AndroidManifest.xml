@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+ 
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.myopicmobile.textwarrior.android"
+      android:versionCode="7" android:versionName="0.71">
+    <application android:icon="@drawable/icon" android:label="@string/title" android:debuggable="false">
+
+
+    <activity android:name=".TextWarriorApplication"
+    	android:windowSoftInputMode="stateUnchanged|adjustResize">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" /> 
+  			<category android:name="android.intent.category.LAUNCHER" /> 
+		</intent-filter>
+		
+		<intent-filter>
+			<action android:name="android.intent.action.VIEW" />
+ 			<action android:name="android.intent.action.EDIT" />
+			<category android:name="android.intent.category.DEFAULT" />
+			<data android:mimeType="text/*"
+				android:scheme="file" />
+		</intent-filter>
+		
+    </activity>
+    
+    <activity android:name=".FilePicker">
+    </activity>
+
+	<activity android:name=".TextWarriorSettings"
+		android:label="@string/settings_title">
+	</activity>
+	
+	<activity android:name=".TextWarriorHelp"
+		android:label="@string/help_title">
+	</activity>
+	
+	</application>
+	
+    <uses-sdk android:minSdkVersion="11" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- <uses-permission android:name="android.permission.VIBRATE"/> -->
+
+</manifest> 

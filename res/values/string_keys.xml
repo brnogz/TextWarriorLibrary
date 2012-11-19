@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+	<string name="settings_key_file_input_format">File input encoding</string>
+	<string name="settings_key_file_output_format">File output encoding</string>
+	<string name="settings_key_font">Font</string>
+	<string name="settings_key_line_terminator_style">Line terminator style</string>
+	<string name="settings_key_show_row_number">Show current row number</string>
+	<string name="settings_key_chirality">Chirality</string>
+	<string name="settings_key_navigation_method">Cursor navigation</string>
+	<string name="settings_key_syntax_color">Syntax coloring</string>
+	<string name="settings_key_tab_spaces">Tab width</string>
+	<string name="settings_key_word_wrap">Word wrap</string>
+	<string name="settings_key_zoom_size">Zoom %</string>
+	<string name="settings_key_drag_select">Drag select</string>
+	<string name="settings_key_auto_open_clipboard">Auto-open clipboard</string>
+	<string name="settings_key_auto_close_clipboard">Auto-close clipboard</string>
+	<string name="settings_key_auto_display_keyboard">Auto-display keyboard</string>
+    
+	<string-array
+        name="settings_entry_values_tab_spaces">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+	<string name="settings_tab_spaces_default">4</string>
+    
+	<string-array
+        name="settings_entry_values_zoom_size">
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+        <item>400</item>
+    </string-array>
+	<string name="settings_zoom_default">100</string>
+
+	<string name="settings_font_sans_serif">Sans_serif</string>
+	<string name="settings_font_serif">Serif</string>
+	<string name="settings_font_monospace">Monospace</string>
+	<string name="settings_font_bitstream_vera">Bitstream Vera</string>
+	<string name="settings_font_proggy_clean">Proggy Clean</string>
+	<string-array
+        name="settings_entry_values_font">
+        <item>@string/settings_font_sans_serif</item>
+        <item>@string/settings_font_serif</item>
+        <item>@string/settings_font_monospace</item>
+        <item>@string/settings_font_bitstream_vera</item>
+        <item>@string/settings_font_proggy_clean</item>
+    </string-array>
+    
+	<string name="settings_syntax_none">None</string>
+	<string name="settings_syntax_c">C</string>
+	<string name="settings_syntax_cpp">C++</string>
+	<string name="settings_syntax_csharp">C#</string>
+	<string name="settings_syntax_java">Java</string>
+	<string name="settings_syntax_javascript">Javascript</string>
+	<string name="settings_syntax_objc">Objective-C</string>
+	<string name="settings_syntax_php">PHP</string>
+	<string name="settings_syntax_python">Python</string>
+	<string name="settings_syntax_ruby">Ruby</string>
+	<string-array
+        name="settings_entry_values_syntax_color">
+        <item>@string/settings_syntax_none</item>
+        <item>@string/settings_syntax_c</item>
+        <item>@string/settings_syntax_cpp</item>
+        <item>@string/settings_syntax_csharp</item>
+        <item>@string/settings_syntax_java</item>
+        <item>@string/settings_syntax_javascript</item>
+        <item>@string/settings_syntax_objc</item>
+        <item>@string/settings_syntax_php</item>
+        <item>@string/settings_syntax_python</item>
+        <item>@string/settings_syntax_ruby</item>
+    </string-array>
+    
+	<string name="settings_chirality_left">Left</string>
+	<string name="settings_chirality_right">Right</string>
+	<string-array
+        name="settings_entry_values_chirality">
+        <item>@string/settings_chirality_right</item>
+        <item>@string/settings_chirality_left</item>
+    </string-array>
+    
+	<string name="settings_navigation_method_basic">Basic</string>
+	<string name="settings_navigation_method_trackpad">Trackpad</string>
+	<string name="settings_navigation_method_yoyo">Yo-yo</string>
+	<string name="settings_navigation_method_liquid">Liquid</string>
+	<string name="settings_navigation_method_vol_keys">Volume keys</string>
+	<string-array
+        name="settings_entry_values_navigation_method">
+        <item>@string/settings_navigation_method_basic</item>
+        <item>@string/settings_navigation_method_trackpad</item>
+        <item>@string/settings_navigation_method_yoyo</item>
+        <item>@string/settings_navigation_method_liquid</item>
+        <item>@string/settings_navigation_method_vol_keys</item>
+    </string-array>
+    <!-- Other setting entry values are in EncodingScheme.java -->
+</resources>

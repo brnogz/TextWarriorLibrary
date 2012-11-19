@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+
+	<string name="dialog_confirm_overwrite">已经存在此名的文件。是否要替换？</string>
+	<string name="dialog_prompt_save">保存更改？</string>
+	<string name="dialog_file_save_success">文件已保存</string>
+	<string name="dialog_save_file_error_recovery">请确定是否有足够的存储空间或者
+文件名含有以下禁符号?*+:\"[|]/\\&lt;&gt;</string>
+	<string name="dialog_find_no_results">未找到</string>
+	<string name="dialog_replace_all_result">替换次数：</string>
+	<string name="dialog_go_to_line">跳到行</string>
+	<string name="dialog_go_to_line_text_hint">行号</string>
+	<string name="dialog_recent_files_none">最近没有打开任何文件。</string>
+	<string name="dialog_statistics">属性</string>
+	<string name="dialog_statistics_words">词数</string>
+	<string name="dialog_statistics_chars">字符数</string>
+	<string name="dialog_statistics_no_whitespace">字符数 (不包括空格)</string>
+	<string name="dialog_statistics_rows">行数</string>
+	<string name="dialog_statistics_format">原编码</string>
+	<string name="dialog_statistics_line_terminator_style">原行尾格式</string>
+	<string name="dialog_about">关于文侠</string>
+	<string name="dialog_button_discard">舍弃</string>
+	<string name="dialog_button_overwrite">替换</string>
+	<string name="dialog_button_go_back">返回</string>
+	<string name="dialog_button_save_different_name">另存为</string>
+	<string name="dialog_error_file_open">无法打开文件：</string>
+	<string name="dialog_error_file_save">无法保存文件：</string>
+	<string name="dialog_error_not_a_file">此名已被用为文件夹名。请保存为另一个文件。</string>
+	<string name="dialog_error_attempt_overwrite_read_only">此文件只能读，不准写。</string>
+	<string name="dialog_error_no_file_name">请输入文件名</string>
+	<string name="dialog_error_file_write_denied">不准许保存在这个文件夹。</string>
+	<string name="dialog_error_out_of_memory">不够储存空间。</string>
+	<string name="dialog_sorry">抱歉。</string>
+	<string name="dialog_sorry_for_the_crash">文侠因为系统不够储存空间而意外被停止。未保存的更改已被舍弃。</string>
+	<string name="dialog_argh">啊！！</string>
+    <string name="progress_dialog_message">请稍等...</string>
+
+    <string name="file_picker_inform_empty">此文件夹是空的。</string>
+    <string name="file_picker_title_pick_file">请选取将打开的文件</string>
+    <string name="file_picker_title_enter_filename">请输入将保存的文件名</string>
+	<string name="file_picker_file_not_found">@string/dialog_find_no_results</string>
+	
+	<string name="find_panel_find_label">搜索</string>
+	<string name="find_panel_replace_label">替换</string>
+	<string name="find_panel_options">搜索设置 （限于英文字母）</string>
+	<string name="find_panel_case_sensitive">区分大小写</string>
+	<string name="find_panel_match_whole_word">匹配整个单词</string>
+	
+    <string name="title">文侠</string>
+	<string name="help_title">文侠帮助</string>
+
+	<string name="menu_about">关于</string>
+	<string name="menu_change_input_method">输入法</string>
+	<string name="menu_find_panel_toggle">搜索/替换</string>
+	<string name="menu_go_to_line">跳到行...</string>
+	<string name="menu_help">帮助</string>
+	<string name="menu_new">新建</string>
+	<string name="menu_open">打开</string>
+	<string name="menu_recent_files">最近的文件</string>
+	<string name="menu_save">保存</string>
+	<string name="menu_save_as">另存为...</string>
+	<string name="menu_select_all">全部选中</string>
+	<string name="menu_statistics">词数统计与属性</string>
+	<string name="menu_settings">设置</string>
+	<string name="menu_undo">撤消</string>
+	<string name="menu_redo">重做</string>
+	
+    
+	<string name="settings_title">文侠设置</string>
+	<string name="settings_group_view">视图</string>
+	<string name="settings_group_navigation">浏览</string>
+	<string name="settings_group_formatting">字符格式</string>
+	<string name="settings_group_io">打开与保存</string>
+	<string name="settings_group_text_selection">文字选取</string>
+	
+	<string name="settings_label_file_input_format">打开文件的编码</string>
+	<string name="settings_desc_file_input_format"></string>
+	<string name="settings_label_file_output_format">保存文件的编码</string>
+	<string name="settings_desc_file_output_format"></string>
+	<string name="settings_label_font">字体类型</string>
+	<string name="settings_desc_font"></string>
+	<string name="settings_label_zoom_size">显示比例％</string>
+	<string name="settings_desc_zoom_size"></string>
+	<string name="settings_label_line_terminator_style">行尾格式</string>
+	<string name="settings_desc_line_terminator_style"></string>
+	<string name="settings_label_show_row_number">行号显示</string>
+	<string name="settings_desc_show_row_number"></string>
+	<string name="settings_label_chirality">左／右撇子</string>
+	<string name="settings_desc_chirality"></string>
+	<string name="settings_label_navigation_method">光标移动方式</string>
+	<string name="settings_desc_navigation_method">要知道更多详情，请阅读帮助。</string>
+	<string name="settings_label_syntax_color">语法高亮</string>
+	<string name="settings_desc_syntax_color">突出显示程式语言所用的词汇</string>
+	<string name="settings_label_tab_spaces">跳格宽度</string>
+	<string name="settings_desc_tab_spaces">多少个空格为一个跳格</string>
+	<string name="settings_label_word_wrap">自动换行</string>
+	<string name="settings_desc_word_wrap"></string>
+	<string name="settings_label_drag_select">拖选</string>
+	<string name="settings_desc_drag_select">用光标拖动来选取文字</string>
+	<string name="settings_label_auto_open_clipboard">自动打开剪贴板</string>
+	<string name="settings_desc_auto_open_clipboard">进行选取时显示剪贴板</string>
+	<string name="settings_label_auto_close_clipboard">自动收回剪贴板</string>
+	<string name="settings_desc_auto_close_clipboard">取消选取时隐藏剪贴板</string>
+	<string name="settings_label_auto_display_keyboard">自动显示软键</string>
+	<string name="settings_desc_auto_display_keyboard">按屏幕时显示软键</string>
+
+	<string-array
+        name="settings_entries_syntax_color">
+        <item>无</item>
+        <item>@string/settings_syntax_c</item>
+        <item>@string/settings_syntax_cpp</item>
+        <item>@string/settings_syntax_csharp</item>
+        <item>@string/settings_syntax_java</item>
+        <item>@string/settings_syntax_javascript</item>
+        <item>@string/settings_syntax_objc</item>
+        <item>@string/settings_syntax_php</item>
+        <item>@string/settings_syntax_python</item>
+        <item>@string/settings_syntax_ruby</item>
+    </string-array>
+
+	<string-array
+        name="settings_entries_font">
+        <item>默认: 无衬线 (sans-serif)</item>
+        <item>默认: 衬线 (serif)</item>
+        <item>默认: 一致宽度</item>
+        <item>@string/settings_font_bitstream_vera</item>
+        <item>@string/settings_font_proggy_clean</item>
+    </string-array>
+	
+	<string-array
+        name="settings_entries_chirality">
+        <item>右撇子</item>
+        <item>左撇子</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_navigation_method">
+        <item>基本</item>
+        <item>跟踪板</item>
+        <item>溜溜球</item>
+        <item>液形</item>
+        <item>音量按键</item>
+    </string-array>
+	
+</resources>

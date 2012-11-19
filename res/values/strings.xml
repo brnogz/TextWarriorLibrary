@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+
+	<string name="dialog_confirm_overwrite">Another file with the same name already exists. Replace existing file?</string>
+	<string name="dialog_prompt_save">Save changes to file?</string>
+	<string name="dialog_file_save_success">File saved</string>
+	<string name="dialog_save_file_error_recovery_tips">Check if there is sufficient space on your device 
+		or if the file name contains invalid symbols like ?*+:\"[|]/\\&lt;&gt;</string>
+	<string name="dialog_find_no_results">No results found</string>
+	<string name="dialog_replace_all_result">Replacements:\u0020</string>
+	<string name="dialog_go_to_line">Go to line</string>
+	<string name="dialog_go_to_line_text_hint">Line number</string>
+	<string name="dialog_recent_files">@string/menu_recent_files</string>
+	<string name="dialog_recent_files_none">There are no recent files.</string>
+	<string name="dialog_statistics">Properties</string>
+	<string name="dialog_statistics_words">Words</string>
+	<string name="dialog_statistics_chars">Characters</string>
+	<string name="dialog_statistics_no_whitespace">Characters (excluding spaces)</string>
+	<string name="dialog_statistics_rows">Rows</string>
+	<string name="dialog_statistics_format">Original encoding</string>
+	<string name="dialog_statistics_line_terminator_style">Original line terminator style</string>
+	<string name="dialog_about">About TextWarrior</string>
+	<string name="dialog_button_save">@string/menu_save</string>
+	<string name="dialog_button_discard">Discard</string>
+	<string name="dialog_button_overwrite">Replace</string>
+	<string name="dialog_button_go_back">Go back</string>
+	<string name="dialog_button_save_different_name">Save as another file</string>
+	<string name="dialog_error_file_open">Error opening file:\u0020</string>
+	<string name="dialog_error_file_save">Error saving file:\u0020</string>
+	<string name="dialog_error_not_a_file">Chosen name already refers to a directory. Please enter a different name.</string>
+	<string name="dialog_error_attempt_overwrite_read_only">Selected file is read-only</string>
+	<string name="dialog_error_no_file_name">File name cannot be empty.</string>
+	<string name="dialog_error_file_write_denied">Not allowed to save in the selected directory.</string>
+	<string name="dialog_error_out_of_memory">Not enough memory.</string>
+	<string name="dialog_sorry">We\'re sorry.</string>
+	<string name="dialog_sorry_for_the_crash">TextWarrior was forced to close
+		abruptly because the system was low on memory. Unfortunately, any unsaved changes were lost.</string>
+	<string name="dialog_argh">Argh!!</string>
+    <string name="progress_dialog_message">Please wait...</string>
+
+    <string name="file_picker_inform_empty">This folder is empty.</string>
+    <string name="file_picker_title_pick_file">Select a file to open</string>
+    <string name="file_picker_title_enter_filename">Enter a file name to save</string>
+    <string name="file_picker_label_save">@string/menu_save</string>
+	<string name="file_picker_file_not_found">Not available</string>
+
+	<string name="find_panel_find_label">Find</string>
+	<string name="find_panel_replace_label">Replace</string>
+	<string name="find_panel_options">Find Options</string>
+	<string name="find_panel_case_sensitive">Case-sensitive</string>
+	<string name="find_panel_match_whole_word">Whole word</string>
+	
+    <string name="title">TextWarrior</string>
+	<string name="help_title">TextWarrior Help</string>
+
+	<string name="menu_about">About</string>
+	<string name="menu_change_input_method">Change input method</string>
+	<string name="menu_find_panel_toggle">Find/Replace</string>
+	<string name="menu_go_to_line">Go to line...</string>
+	<string name="menu_help">Help</string>
+	<string name="menu_new">New</string>
+	<string name="menu_open">Open</string>
+	<string name="menu_recent_files">Recent</string>
+	<string name="menu_save">Save</string>
+	<string name="menu_save_as">Save as...</string>
+	<string name="menu_select_all">Select all</string>
+	<string name="menu_statistics">Word count and properties</string>
+	<string name="menu_settings">Settings</string>
+	<string name="menu_undo">Undo</string>
+	<string name="menu_redo">Redo</string>
+
+
+	<string name="settings_title">TextWarrior Settings</string>
+	<string name="settings_group_view">View</string>
+	<string name="settings_group_navigation">Navigation</string>
+	<string name="settings_group_formatting">Formatting</string>
+	<string name="settings_group_io">Opening and Saving</string>
+	<string name="settings_group_text_selection">Text Selection</string>
+
+	<string name="settings_label_file_input_format">@string/settings_key_file_input_format</string>
+	<string name="settings_desc_file_input_format"></string>
+	<string name="settings_label_file_output_format">@string/settings_key_file_output_format</string>
+	<string name="settings_desc_file_output_format"></string>
+	<string name="settings_label_font">@string/settings_key_font</string>
+	<string name="settings_desc_font"></string>
+	<string name="settings_label_zoom_size">@string/settings_key_zoom_size</string>
+	<string name="settings_desc_zoom_size">Text size</string>
+	<string name="settings_label_line_terminator_style">@string/settings_key_line_terminator_style</string>
+	<string name="settings_desc_line_terminator_style"></string>
+	<string name="settings_label_show_row_number">@string/settings_key_show_row_number</string>
+	<string name="settings_desc_show_row_number">Display current row number on the title bar</string>
+	<string name="settings_label_chirality">Left/Right-handed</string>
+	<string name="settings_desc_chirality">Affects some navigation methods.</string>
+	<string name="settings_label_navigation_method">@string/settings_key_navigation_method</string>
+	<string name="settings_desc_navigation_method">Ways to move the cursor. See the help file for more details.</string>
+	<string name="settings_label_syntax_color">@string/settings_key_syntax_color</string>
+	<string name="settings_desc_syntax_color">Highlight words used in programming languages</string>
+	<string name="settings_label_tab_spaces">@string/settings_key_tab_spaces</string>
+	<string name="settings_desc_tab_spaces">Number of spaces a tab represents</string>
+	<string name="settings_label_word_wrap">@string/settings_key_word_wrap</string>
+	<string name="settings_desc_word_wrap">Continues text on the next line if it is too long</string>
+	<string name="settings_label_drag_select">@string/settings_key_drag_select</string>
+	<string name="settings_desc_drag_select">Select text when cursor is dragged</string>
+	<string name="settings_label_auto_open_clipboard">@string/settings_key_auto_open_clipboard</string>
+	<string name="settings_desc_auto_open_clipboard">Display clipboard options when selection made</string>
+	<string name="settings_label_auto_close_clipboard">@string/settings_key_auto_close_clipboard</string>
+	<string name="settings_desc_auto_close_clipboard">Hide clipboard options when selection cancelled</string>
+	<string name="settings_label_auto_display_keyboard">@string/settings_key_auto_display_keyboard</string>
+	<string name="settings_desc_auto_display_keyboard">Show virtual keyboard when screen is tapped</string>
+
+	
+	<!-- If modifying the order or number of entries for the following arrays,
+	     don't forget to make corresponding modifications in the array
+	     settings_entry_values_<name> in string_keys.xml
+	  -->
+	<string-array
+        name="settings_entries_syntax_color">
+        <item>@string/settings_syntax_none</item>
+        <item>@string/settings_syntax_c</item>
+        <item>@string/settings_syntax_cpp</item>
+        <item>@string/settings_syntax_csharp</item>
+        <item>@string/settings_syntax_java</item>
+        <item>@string/settings_syntax_javascript</item>
+        <item>@string/settings_syntax_objc</item>
+        <item>@string/settings_syntax_php</item>
+        <item>@string/settings_syntax_python</item>
+        <item>@string/settings_syntax_ruby</item>
+    </string-array>
+
+	<string-array
+        name="settings_entries_font">
+        <item>Default: sans-serif</item>
+        <item>Default: serif</item>
+        <item>Default: fixed width</item>
+        <item>@string/settings_font_bitstream_vera</item>
+        <item>@string/settings_font_proggy_clean</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_chirality">
+        <item>Right-handed</item>
+        <item>Left-handed</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_navigation_method">
+        <item>Basic</item>
+        <item>Trackpad</item>
+        <item>Yo-yo</item>
+        <item>Liquid</item>
+        <item>Volume keys</item>
+    </string-array>
+    <!-- Other setting entries that don't have to be localised are in
+    	strings_not_for_localization.xml and in EncodingScheme.java -->
+	<string name="NS">http://schemas.android.com/apk/res/com.myopicmobile.textwarrior.android</string>
+</resources>

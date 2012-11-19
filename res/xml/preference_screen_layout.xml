@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/settings_group_view">
+		<!-- Zoom size does not need localised values -->
+		<ListPreference
+		android:key="@string/settings_key_zoom_size"
+		android:title="@string/settings_label_zoom_size"
+		android:summary="@string/settings_desc_zoom_size"
+		android:entries="@array/settings_entry_values_zoom_size"
+		android:entryValues="@array/settings_entry_values_zoom_size"
+		android:defaultValue="100"
+		/>
+		
+		<CheckBoxPreference
+		android:key="@string/settings_key_show_row_number"
+		android:title="@string/settings_label_show_row_number"
+		android:summary="@string/settings_desc_show_row_number"
+		android:defaultValue="false"
+		/>
+		
+		<!--
+		<CheckBoxPreference
+		android:key="@string/settings_key_word_wrap"
+		android:title="@string/settings_label_word_wrap"
+		android:summary="@string/settings_desc_word_wrap"
+		android:defaultValue="false"
+		/>
+		-->
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory android:title="@string/settings_group_navigation">
+		<ListPreference
+		android:key="@string/settings_key_navigation_method"
+		android:title="@string/settings_label_navigation_method"
+		android:summary="@string/settings_desc_navigation_method"
+		android:entries="@array/settings_entries_navigation_method"
+		android:entryValues="@array/settings_entry_values_navigation_method"
+		android:defaultValue="@string/settings_navigation_method_trackpad"
+		/>
+		
+		<ListPreference
+		android:key="@string/settings_key_chirality"
+		android:title="@string/settings_label_chirality"
+		android:summary="@string/settings_desc_chirality"
+		android:entries="@array/settings_entries_chirality"
+		android:entryValues="@array/settings_entry_values_chirality"
+		android:defaultValue="@string/settings_chirality_right"
+		/>
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory android:title="@string/settings_group_text_selection">
+		<CheckBoxPreference
+		android:key="@string/settings_key_drag_select"
+		android:title="@string/settings_label_drag_select"
+		android:summary="@string/settings_desc_drag_select"
+		android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+		android:key="@string/settings_key_auto_open_clipboard"
+		android:title="@string/settings_label_auto_open_clipboard"
+		android:summary="@string/settings_desc_auto_open_clipboard"
+		android:defaultValue="true"
+		/>
+
+		<CheckBoxPreference
+		android:key="@string/settings_key_auto_close_clipboard"
+		android:title="@string/settings_label_auto_close_clipboard"
+		android:summary="@string/settings_desc_auto_close_clipboard"
+		android:defaultValue="true"
+		/>
+		
+		<CheckBoxPreference
+		android:key="@string/settings_key_auto_display_keyboard"
+		android:title="@string/settings_label_auto_display_keyboard"
+		android:summary="@string/settings_desc_auto_display_keyboard"
+		android:defaultValue="true"
+		/>
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory android:title="@string/settings_group_formatting">
+		<ListPreference
+		android:key="@string/settings_key_font"
+		android:title="@string/settings_label_font"
+		android:summary="@string/settings_desc_font"
+		android:entries="@array/settings_entries_font"
+		android:entryValues="@array/settings_entry_values_font"
+		android:defaultValue="@string/settings_font_sans_serif"
+		/>
+
+		<!-- Tab spaces does not need localised entry values -->
+		<ListPreference
+		android:key="@string/settings_key_tab_spaces"
+		android:title="@string/settings_label_tab_spaces"
+		android:summary="@string/settings_desc_tab_spaces"
+		android:entries="@array/settings_entry_values_tab_spaces"
+		android:entryValues="@array/settings_entry_values_tab_spaces"
+		android:defaultValue="4"
+		/>
+
+		<ListPreference
+		android:key="@string/settings_key_syntax_color"
+		android:title="@string/settings_label_syntax_color"
+		android:summary="@string/settings_desc_syntax_color"
+		android:entries="@array/settings_entries_syntax_color"
+		android:entryValues="@array/settings_entry_values_syntax_color"
+		android:defaultValue="@string/settings_syntax_none"
+		/>
+	</PreferenceCategory>
+	
+	
+	<PreferenceCategory android:title="@string/settings_group_io">
+		<!-- Following preferences will set entries and entry values at runtime -->
+		<ListPreference
+		android:key="@string/settings_key_file_input_format"
+		android:title="@string/settings_label_file_input_format"
+		android:summary="@string/settings_desc_file_input_format"
+		android:defaultValue="Auto"
+		/>
+		
+		<ListPreference
+		android:key="@string/settings_key_file_output_format"
+		android:title="@string/settings_label_file_output_format"
+		android:summary="@string/settings_desc_file_output_format"
+		android:defaultValue="Auto"
+		/>
+		
+		<ListPreference
+		android:key="@string/settings_key_line_terminator_style"
+		android:title="@string/settings_label_line_terminator_style"
+		android:summary="@string/settings_desc_line_terminator_style"
+		android:defaultValue="Auto"
+		/>
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+
+	<string name="dialog_confirm_overwrite">El archivo ya existe. Sobrescribalo?</string>
+	<string name="dialog_prompt_save">Cambios guardar?</string>
+	<string name="dialog_file_save_success">El archivo se ha guardado</string>
+	<string name="dialog_save_file_error_recovery_tips">Verifique si hay bastante espacio en su aparato.</string>
+	<string name="dialog_find_no_results">Ningunos resultados se han buscado</string>
+	<string name="dialog_replace_all_result">Reemplazos:\u0020</string>
+	<string name="dialog_go_to_line">Ir a línea</string>
+	<string name="dialog_go_to_line_text_hint">Número de línea</string>
+	<string name="dialog_recent_files_none">No hay archivos recientes.</string>
+	<string name="dialog_statistics">Propiedades</string>
+	<string name="dialog_statistics_words">Palabras</string>
+	<string name="dialog_statistics_chars">Caracteres</string>
+	<string name="dialog_statistics_no_whitespace">Caracteres (sin espacios)</string>
+	<string name="dialog_statistics_rows">Líneas</string>
+	<string name="dialog_statistics_format">Codificación original</string>
+	<string name="dialog_statistics_line_terminator_style">Terminador de línea original</string>
+	<string name="dialog_about">Acerca de TextWarrior</string>
+	<string name="dialog_button_discard">Descartar</string>
+	<string name="dialog_button_overwrite">Sobrescribir</string>
+	<string name="dialog_button_go_back">Anterior</string>
+	<string name="dialog_button_save_different_name">Guardar como otro nombre</string>
+	<string name="dialog_error_file_open">No se pudo abrir el archivo:\u0020</string>
+	<string name="dialog_error_file_save">No se pudo guardar el archivo:\u0020</string>
+	<string name="dialog_error_not_a_file">El nombre seleccionado ya vincula a un directorio.</string>
+	<string name="dialog_error_attempt_overwrite_read_only">El archivo está de sólo lectura.</string>
+	<string name="dialog_error_no_file_name">El nombre del archivo no puede estar vacío.</string>
+	<string name="dialog_error_file_write_denied">No tenga los derechos para guardarlo en esto directorio.</string>
+	<string name="dialog_error_out_of_memory">No hay bastante memoria.</string>
+	<string name="dialog_sorry">Lo sentimos.</string>
+	<string name="dialog_sorry_for_the_crash">TextWarrior se ha interrumpido inesperadamente 
+		debido a la falta de memoria. Cambios no guardados se han perdido.</string>
+	<string name="dialog_argh">Ahj!!</string>
+    <string name="progress_dialog_message">Por favor, espere...</string>
+
+    <string name="file_picker_inform_empty">Esto directorio está vacío.</string>
+    <string name="file_picker_title_pick_file">Selccione un archivo</string>
+    <string name="file_picker_title_enter_filename">Guardar como</string>
+	<string name="file_picker_file_not_found">No disponible</string>
+
+	<string name="find_panel_find_label">Buscar</string>
+	<string name="find_panel_replace_label">Reemplazar</string>
+	<string name="find_panel_options">Opciones Buscar</string>
+	<string name="find_panel_case_sensitive">Mayús./Minús.</string>
+	<string name="find_panel_match_whole_word">Palabra completa</string>
+	
+	<string name="help_title">Ayuda de TextWarrior</string>
+
+	<string name="menu_about">Acerca de</string>
+	<string name="menu_change_input_method">Método de entrada</string>
+	<string name="menu_find_panel_toggle">Buscar/Reemplazar</string>
+	<string name="menu_go_to_line">Ir a línea...</string>
+	<string name="menu_help">Ayudar</string>
+	<string name="menu_new">Nuevo</string>
+	<string name="menu_open">Abrir</string>
+	<string name="menu_recent_files">Archivos recientes</string>
+	<string name="menu_save">Guardar</string>
+	<string name="menu_save_as">Guardar como...</string>
+	<string name="menu_select_all">Seleccionar todo</string>
+	<string name="menu_statistics">Conteo de palabras y propiedades</string>
+	<string name="menu_settings">Opciones</string>
+	<string name="menu_undo">Deshacer</string>
+	<string name="menu_redo">Rehacer</string>
+	
+    
+	<string name="settings_title">Opciones de TextWarrior</string>
+	<string name="settings_group_view">Ver</string>
+	<string name="settings_group_navigation">Navegación</string>
+	<string name="settings_group_formatting">Formato</string>
+	<string name="settings_group_io">Abrir y guardar</string>
+	<string name="settings_group_text_selection">Texto seleccionar</string>
+	
+	<string name="settings_label_file_input_format">Codificación de entrada</string>
+	<string name="settings_desc_file_input_format"></string>
+	<string name="settings_label_file_output_format">Codificación de salida</string>
+	<string name="settings_desc_file_output_format"></string>
+	<string name="settings_label_font">Fuente</string>
+	<string name="settings_desc_font"></string>
+	<string name="settings_desc_zoom_size"></string>
+	<string name="settings_label_line_terminator_style">Terminador de línea</string>
+	<string name="settings_desc_line_terminator_style"></string>
+	<string name="settings_label_show_row_number">Mostrar número de línea</string>
+	<string name="settings_desc_show_row_number"></string>
+	<string name="settings_label_chirality">Zurdo/Diestro</string>
+	<string name="settings_desc_chirality"></string>
+	<string name="settings_label_navigation_method">Método de navegación</string>
+	<string name="settings_desc_navigation_method">Para colocar el cursor. Consulte el texto de ayuda para saber más</string>
+	<string name="settings_label_syntax_color">Color sintaxis</string>
+	<string name="settings_desc_syntax_color">Resaltar las palabras de los lenguajes de programacion</string>
+	<string name="settings_label_tab_spaces">Tamaño tabulación</string>
+	<string name="settings_desc_tab_spaces">Número de espacios por tabulación</string>
+	<string name="settings_label_word_wrap">Ajuste de línea</string>
+	<string name="settings_desc_word_wrap"></string>
+	<string name="settings_label_drag_select">Arrastrar y seleccionar</string>
+	<string name="settings_desc_drag_select">Texto seleccionar con arrastrar el cursor</string>
+	<string name="settings_label_auto_open_clipboard">Portapapeles auto-abrir</string>
+	<string name="settings_desc_auto_open_clipboard">Mostrar el portapapeles cuando una seleccvon se ha realizado</string>
+	<string name="settings_label_auto_close_clipboard">Portapapeles auto-cerrar</string>
+	<string name="settings_desc_auto_close_clipboard">Ocultar el portapapeles cuando una seleccíon se ha cancelado</string>
+	<string name="settings_label_auto_display_keyboard">Teclado auto-mostrar</string>
+	<string name="settings_desc_auto_display_keyboard">Mostrar el teclado virtual al toque en la pantalla</string>
+	
+	<string-array
+        name="settings_entries_syntax_color">
+        <item>Ninguno</item>
+        <item>@string/settings_syntax_c</item>
+        <item>@string/settings_syntax_cpp</item>
+        <item>@string/settings_syntax_csharp</item>
+        <item>@string/settings_syntax_java</item>
+        <item>@string/settings_syntax_javascript</item>
+        <item>@string/settings_syntax_objc</item>
+        <item>@string/settings_syntax_php</item>
+        <item>@string/settings_syntax_python</item>
+        <item>@string/settings_syntax_ruby</item>
+    </string-array>
+
+	<string-array
+        name="settings_entries_font">
+        <item>Por defecto: sin serif</item>
+        <item>Por defecto: serif</item>
+        <item>Por defecto: tamaño fijo</item>
+        <item>@string/settings_font_bitstream_vera</item>
+        <item>@string/settings_font_proggy_clean</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_chirality">
+        <item>Diestro</item>
+        <item>Zurdo</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_navigation_method">
+        <item>Básico</item>
+        <item>Panel táctil</item>
+        <item>Yo-yo</item>
+        <item>Líquido</item>
+        <item>Teclas de volumen</item>
+    </string-array>
+	
+</resources>

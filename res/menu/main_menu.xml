@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/recent_files"
+          android:title="@string/menu_recent_files"
+          android:icon="@android:drawable/ic_menu_recent_history" />
+	<item android:id="@+id/open"
+          android:title="@string/menu_open"
+          android:icon="@drawable/ic_menu_archive" />
+	<item android:id="@+id/save"
+          android:title="@string/menu_save"
+          android:icon="@android:drawable/ic_menu_save" />
+	<item android:id="@+id/find_panel_toggle"
+          android:title="@string/menu_find_panel_toggle"
+          android:icon="@android:drawable/ic_menu_search" />
+	<item android:id="@+id/undo"
+          android:title="@string/menu_undo"
+          android:icon="@android:drawable/ic_menu_revert" />
+    <!-- End of icon menu -->
+
+	<item android:id="@+id/redo"
+          android:title="@string/menu_redo" />
+	<item android:id="@+id/new_file"
+          android:title="@string/menu_new" />
+	<item android:id="@+id/save_as"
+          android:title="@string/menu_save_as" />
+    <group android:id="@+id/menu_group_selection_actions">
+		<item android:id="@+id/cut"
+			android:title="@android:string/cut" />
+		<item android:id="@+id/copy"
+          	android:title="@android:string/copy" />
+    </group>
+	<item android:id="@+id/paste"
+          android:title="@android:string/paste" />
+	<item android:id="@+id/select_all"
+          android:title="@string/menu_select_all" />
+	<item android:id="@+id/go_to_line"
+          android:title="@string/menu_go_to_line" />
+	<item android:id="@+id/statistics"
+          android:title="@string/menu_statistics" />
+	<item android:id="@+id/settings"
+          android:title="@string/menu_settings" />
+          <!--  android:icon="@android:drawable/ic_menu_preferences" -->
+	<item android:id="@+id/change_input_method"
+          android:title="@string/menu_change_input_method" />
+	<item android:id="@+id/help"
+          android:title="@string/menu_help" />
+	<item android:id="@+id/about"
+          android:title="@string/menu_about" />
+
+</menu>

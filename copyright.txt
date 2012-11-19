@@ -1,0 +1,120 @@
+Copyright (c) 2011 Tah Wei Hoon.
+All rights reserved. This program and the accompanying materials are made available under the terms of the Apache License Version 2.0.
+The full license terms can be found at http://www.apache.org/licenses/LICENSE-2.0.html
+
+This software is provided "as is". Use at your own risk.
+
+
+
+=======================================================
+Copyright and licensing info for the following images:
+=======================================================
+
+arrow_down.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+arrow_up.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+copy_disabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+Modified by Tah Wei Hoon, LGPL 2.1
+
+copy_enabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+Modified by Tah Wei Hoon, LGPL 2.1
+
+cut_disabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+Modified by Tah Wei Hoon, LGPL 2.1
+
+cut_enabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+
+find_backwards.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+Modified by Tah Wei Hoon, CC-BY 3.0
+
+find_forwards.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+fire.png
+Tah Wei Hoon, CC-BY 3.0
+
+fire_glow.png
+Tah Wei Hoon, CC-BY 3.0
+
+ic_launcher_folder.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+ic_launcher_home.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+ic_menu_archive.png
+Google Inc., Android API 8, Apache Version 2.0
+
+ic_menu_back_small.png
+OpenIntents, OI File Manager, Apache Version 2.0
+
+ic_menu_forward_small.png
+OpenIntents, OI File Manager, Apache Version 2.0
+
+icon.png
+Lufang Hsiung, Public Domain
+Modified by Tah Wei Hoon, CC-BY 3.0
+
+icon_file.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+icon_file_missing.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+icon_sdcard.png
+OpenIntents, OI File Manager, Apache Version 2.0
+
+paste_disabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+Modified by Tah Wei Hoon, LGPL 2.1
+
+paste_enabled.png
+Everaldo Coelho, Crystal Icon Set, LGPL 2.1
+
+replace.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+replace_all.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+Modified by Tah Wei Hoon, CC-BY 3.0
+
+settings.png
+Yusuke Kamiyamane, Fugue Icon Set 3.0, CC-BY 3.0
+
+tab_down.png
+Tah Wei Hoon, CC-BY 3.0
+
+tab_down_selected.png
+Tah Wei Hoon, CC-BY 3.0
+
+tab_up.png
+Tah Wei Hoon, CC-BY 3.0
+
+tab_up_selected.png
+Tah Wei Hoon, CC-BY 3.0
+
+trackpad_close.png
+Tah Wei Hoon, CC-BY 3.0
+
+trackpad_left.9.png
+Tah Wei Hoon, CC-BY 3.0
+
+trackpad_open.png
+Tah Wei Hoon, CC-BY 3.0
+
+trackpad_right.9.png
+Tah Wei Hoon, CC-BY 3.0
+
+yoyo.png
+Tah Wei Hoon, CC-BY 3.0
+
+yoyo_selected.png
+Tah Wei Hoon, CC-BY 3.0

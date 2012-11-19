@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+	<string name="about_text">
+<b>TextWarrior 0.71</b>\n
+for Android\n
+\n
+Copyright 2011 Tah Wei Hoon\n
+This program is made available under the terms of Apache License Version 2.0\n
+\n
+\n
+<b>File browser by</b>\n
+OpenIntents\n
+http://www.openintents.org\n
+Licensed under Apache Version 2.0\n
+\n
+\n
+<b>Icons by</b>\n
+Everaldo Coelho\n
+http://www.everaldo.com/crystal\n
+Licensed under LGPL 2.1\n
+\n
+Yusuke Kamiyamane\n
+http://p.yusukekamiyamane.com\n
+Licensed under CC-BY 3.0\n
+\n
+Lufang Hsiung\n
+\n
+\n
+<b>Fonts by</b>\n
+Bitstream, Inc.\n
+\n
+Tristan Grimmer\n
+\n
+\n
+Send feedback, suggestions and bug reports to hoon.tw@gmail.com
+	</string>
+</resources>

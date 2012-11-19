@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:panel="@string/NS"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<com.myopicmobile.textwarrior.android.FindPanel 
+		android:id="@+id/find_panel"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+
+    <FrameLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent" >
+	
+		<com.myopicmobile.textwarrior.android.FreeScrollingTextField 
+			android:id="@+id/work_area"
+    		android:layout_width="fill_parent" 
+    		android:layout_height="fill_parent"
+    		android:paddingTop="4.0dp"
+    		android:paddingBottom="2.0dp"
+    		android:paddingLeft="4.0dp"
+    		android:paddingRight="2.0dp"
+    		android:scrollbars="vertical"
+    		android:scrollbarStyle="outsideInset" />
+
+    	<com.myopicmobile.textwarrior.android.ClipboardPanel
+    		android:id="@+id/clipboard_drawer"
+    		android:layout_gravity="right"
+   	 		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_marginRight="10.0dp"
+    		panel:handle="@+id/clipboard_drawer_handle"
+			panel:content="@+id/clipboard_drawer_content"
+		    panel:position="top"
+		    panel:animationDuration="255"
+		    panel:linearFlying="true"
+		    panel:openedHandle="@drawable/clipboard_handle_up"
+		    panel:closedHandle="@drawable/clipboard_handle_down"
+    		panel:flushedHandle="true" >
+
+   	 		<ImageButton
+				android:id="@id/clipboard_drawer_handle" 
+			    android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:layout_gravity="center"
+			/>
+
+    		<LinearLayout
+				android:id="@id/clipboard_drawer_content"
+    			android:orientation="vertical"
+   	 			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			android:gravity="right"
+    			android:background="@drawable/clipboard_drawer_background" >
+    			
+				<ImageButton android:id="@+id/cut"
+   	 				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+					android:src="@drawable/cut" />
+					
+				<ImageButton android:id="@+id/copy"
+   	 				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+					android:src="@drawable/copy" />
+					
+				<ImageButton android:id="@+id/paste"
+   	 				android:layout_width="wrap_content"
+    				android:layout_height="wrap_content"
+					android:src="@drawable/paste" />
+    		</LinearLayout>
+    		
+    	</com.myopicmobile.textwarrior.android.ClipboardPanel>
+    	
+    </FrameLayout>
+</LinearLayout>

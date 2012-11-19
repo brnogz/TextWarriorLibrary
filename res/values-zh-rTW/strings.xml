@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<resources>
+
+	<string name="dialog_confirm_overwrite">已經存在此名的檔案。是否要取代它？</string>
+	<string name="dialog_prompt_save">儲存更改？</string>
+	<string name="dialog_file_save_success">檔案已儲存</string>
+	<string name="dialog_save_file_error_recovery">請確定是否有足夠的存儲空間或者
+檔案名含有以下禁符號?*+:\"[|]/\\&lt;&gt;</string>
+	<string name="dialog_find_no_results">未找到</string>
+	<string name="dialog_replace_all_result">取代次數：</string>
+	<string name="dialog_go_to_line">跳到行號</string>
+	<string name="dialog_go_to_line_text_hint">行號</string>
+	<string name="dialog_recent_files_none">最近没有開啟任何檔案。</string>
+	<string name="dialog_statistics">特性</string>
+	<string name="dialog_statistics_words">字數</string>
+	<string name="dialog_statistics_chars">字元數</string>
+	<string name="dialog_statistics_no_whitespace">字元數 (不包括空格)</string>
+	<string name="dialog_statistics_rows">行數</string>
+	<string name="dialog_statistics_format">原編碼</string>
+	<string name="dialog_statistics_line_terminator_style">原行尾格式</string>
+	<string name="dialog_about">關於文俠</string>
+	<string name="dialog_button_discard">舍棄</string>
+	<string name="dialog_button_overwrite">取代</string>
+	<string name="dialog_button_go_back">返回</string>
+	<string name="dialog_button_save_different_name">另存新檔</string>
+	<string name="dialog_error_file_open">無法開啟檔案：</string>
+	<string name="dialog_error_file_save">無法儲存檔案：</string>
+	<string name="dialog_error_not_a_file">此名已被用為資料夾名。請另存檔案。</string>
+	<string name="dialog_error_attempt_overwrite_read_only">此檔案隻能讀，不准寫。</string>
+	<string name="dialog_error_no_file_name">請輸入檔案名</string>
+	<string name="dialog_error_file_write_denied">不准許儲存在這個資料夾。</string>
+	<string name="dialog_error_out_of_memory">不夠儲存空間。</string>
+	<string name="dialog_sorry">抱歉。</string>
+	<string name="dialog_sorry_for_the_crash">文俠因為系統不夠儲存空間而意外被終止。未保存的更改已被舍棄。</string>
+	<string name="dialog_argh">啊！！</string>
+    <string name="progress_dialog_message">請稍等...</string>
+
+    <string name="file_picker_inform_empty">此資料夾是空的。</string>
+    <string name="file_picker_title_pick_file">請選取將開啟的檔案</string>
+    <string name="file_picker_title_enter_filename">請輸入將儲存的檔案名</string>
+	<string name="file_picker_file_not_found">@string/dialog_find_no_results</string>
+	
+	<string name="find_panel_find_label">搜尋</string>
+	<string name="find_panel_replace_label">取代</string>
+	<string name="find_panel_options">搜尋設定 （限於英文字母）</string>
+	<string name="find_panel_case_sensitive">符合大小寫</string>
+	<string name="find_panel_match_whole_word">符合整個字詞</string>
+	
+    <string name="title">文俠</string>
+	<string name="help_title">文俠說明</string>
+
+	<string name="menu_about">關於</string>
+	<string name="menu_change_input_method">輸入方式</string>
+	<string name="menu_find_panel_toggle">搜尋/取代</string>
+	<string name="menu_go_to_line">跳到行號...</string>
+	<string name="menu_help">說明</string>
+	<string name="menu_new">新增</string>
+	<string name="menu_open">開啟</string>
+	<string name="menu_recent_files">最近的檔案</string>
+	<string name="menu_save">儲存</string>
+	<string name="menu_save_as">另存新檔...</string>
+	<string name="menu_select_all">全部選取</string>
+	<string name="menu_statistics">字數與特性</string>
+	<string name="menu_settings">設定</string>
+	<string name="menu_undo">復原</string>
+	<string name="menu_redo">取消復原</string>
+	
+    
+	<string name="settings_title">文俠設定</string>
+	<string name="settings_group_view">撿視</string>
+	<string name="settings_group_navigation">瀏覽</string>
+	<string name="settings_group_formatting">格式</string>
+	<string name="settings_group_io">開啟與儲存</string>
+	<string name="settings_group_text_selection">文字選取</string>
+	
+	<string name="settings_label_file_input_format">開啟檔案的編碼</string>
+	<string name="settings_desc_file_input_format"></string>
+	<string name="settings_label_file_output_format">儲存檔案的編碼</string>
+	<string name="settings_desc_file_output_format"></string>
+	<string name="settings_label_font">字型</string>
+	<string name="settings_desc_font"></string>
+	<string name="settings_label_zoom_size">顯示比例％</string>
+	<string name="settings_desc_zoom_size"></string>
+	<string name="settings_label_line_terminator_style">行尾格式</string>
+	<string name="settings_desc_line_terminator_style"></string>
+	<string name="settings_label_show_row_number">行號顯示</string>
+	<string name="settings_desc_show_row_number"></string>
+	<string name="settings_label_chirality">左／右撇子</string>
+	<string name="settings_desc_chirality"></string>
+	<string name="settings_label_navigation_method">光標移動方式</string>
+	<string name="settings_desc_navigation_method">要知道更多詳情，請閱讀說明。</string>
+	<string name="settings_label_syntax_color">語法識別</string>
+	<string name="settings_desc_syntax_color">標示程式語言所用的詞匯</string>
+	<string name="settings_label_tab_spaces">Tab 字符寬度</string>
+	<string name="settings_desc_tab_spaces">多少個空格為一個 Tab</string>
+	<string name="settings_label_word_wrap">自動換行</string>
+	<string name="settings_desc_word_wrap"></string>
+	<string name="settings_label_drag_select">拖選</string>
+	<string name="settings_desc_drag_select">用光標拖動來選取文字</string>
+	<string name="settings_label_auto_open_clipboard">自動打開剪貼板</string>
+	<string name="settings_desc_auto_open_clipboard">進行選取時顯示剪貼板</string>
+	<string name="settings_label_auto_close_clipboard">自動收回剪貼板</string>
+	<string name="settings_desc_auto_close_clipboard">取消選取時隱藏剪貼板</string>
+	<string name="settings_label_auto_display_keyboard">自動顯示鍵盤</string>
+	<string name="settings_desc_auto_display_keyboard">按螢幕時顯示虛擬鍵盤</string>
+
+	<string-array
+        name="settings_entries_syntax_color">
+        <item>無</item>
+        <item>@string/settings_syntax_c</item>
+        <item>@string/settings_syntax_cpp</item>
+        <item>@string/settings_syntax_csharp</item>
+        <item>@string/settings_syntax_java</item>
+        <item>@string/settings_syntax_javascript</item>
+        <item>@string/settings_syntax_objc</item>
+        <item>@string/settings_syntax_php</item>
+        <item>@string/settings_syntax_python</item>
+        <item>@string/settings_syntax_ruby</item>
+    </string-array>
+
+	<string-array
+        name="settings_entries_font">
+        <item>默認: 無襯線 (sans-serif)</item>
+        <item>默認: 襯線 (serif)</item>
+        <item>默認: 固定寬度</item>
+        <item>@string/settings_font_bitstream_vera</item>
+        <item>@string/settings_font_proggy_clean</item>
+    </string-array>
+	
+	<string-array
+        name="settings_entries_chirality">
+        <item>右撇子</item>
+        <item>左撇子</item>
+    </string-array>
+    
+	<string-array
+        name="settings_entries_navigation_method">
+        <item>基本</item>
+        <item>觸控板</item>
+        <item>溜溜球</item>
+        <item>液形</item>
+        <item>音量按鍵</item>
+    </string-array>
+	
+</resources>

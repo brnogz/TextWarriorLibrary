@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Copyright (c) 2011 Tah Wei Hoon.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Apache License Version 2.0,
+    with full text available at http://www.apache.org/licenses/LICENSE-2.0.html
+
+    This software is provided "as is". Use at your own risk.
+ -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<TableLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:stretchColumns="0"
+	    android:shrinkColumns="0">
+	
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_words"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_word_count"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_chars"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_char_count"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_no_whitespace"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_char_no_whitespace_count"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_rows"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_row_count"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	    
+	    <View
+	        android:layout_height="2dp"
+	        android:background="#FF909090" />
+	
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_format"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_format"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	
+	    
+	    <TableRow>
+	        <TextView
+	            android:text="@string/dialog_statistics_line_terminator_style"
+	            android:textSize="18.0dp"
+	            android:padding="10dp" />
+	        <TextView android:id="@+id/statistics_line_terminator_style"
+	            android:textSize="18.0dp"
+	        	android:gravity="right"
+	            android:padding="10dp" />
+	    </TableRow>
+	</TableLayout>
+</ScrollView>
